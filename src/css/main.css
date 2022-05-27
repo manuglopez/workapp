@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;500&display=swap');
+@layer components {
+    body{
+        @apply font-nunito
+    }
+    h1 {
+        @apply bg-blue-200 text-3xl p-2.5 rounded-2xl
+    }
+    .button_dark_primary{
+        @apply text-slate-400 bg-amber-50 border-solid border-gray-50  border rounded py-2 px-12 m-4 shadow hover:bg-neutral-300 hover:text-slate-700 hover:shadow
+    }
+    .button_dark_secondary{
+        @apply text-slate-400 border-solid border-amber-50  border rounded py-2 px-12 m-4 shadow-amber-50 shadow-2xl drop-shadow-md hover:bg-gray-50 hover:text-slate-400 hover:shadow
+    }
+    .button_light_primary{
+       @apply mt-2.5 text-slate-600 border-solid border-gray-800  border rounded py-2 px-12 m-4   hover:bg-gray-700 hover:text-slate-50 hover:shadow
+    }
+}
