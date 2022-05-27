@@ -10,7 +10,7 @@ node -v
 
 After that go to root project folder an run
 ```
-npm run install && npm run dev
+npm  install 
 ```
 
 If all was run without any error you can run 
