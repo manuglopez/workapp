@@ -8,8 +8,10 @@ mix.js('src/app.js', 'public/js')
 mix.copy([
     'src/html/**',
 ], 'public/')
-    .setPublicPath('public');
-browserSync.init({
-    watch: true,
-    server: "./public"
-})
+    .copy('src/img/**','public/img')
+    .setPublicPath('public')
+    .browserSync({
+        watch: true,
+        proxy: 'http://workapp.test',
+        // server: "./public"
+    });

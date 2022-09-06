@@ -6,8 +6,16 @@ module.exports = {
   content: ["./src/html/**/*.{html,js}"],
   theme: {
     extend: {
+      colors: {
+        transparent: 'transparent',
+        current: 'currentColor',
+        'white': '#ffffff',
+        'whiteblue': '#eff7ff',
+        'midblue': '#99ccff',
+        'darkblue': '#273655',
+      },
       fontFamily: {
-        'nunito': ['Nunito', 'sans-serif']
+        'lato': ['Lato', 'sans-serif']
       }
     },
   },
