@@ -6,13 +6,13 @@
 
 @layer components {
     body{
-        @apply font-lato
+        @apply font-lato m-0
     }
-    .fondo{
+    .fondogradiente{
         @apply bg-gradient-to-b from-darkblue to-midblue
     }
     .footer-link{
-      @apply  text-sm bg-neutral-300 rounded text-gray-800 no-underline p-2 m-2
+      @apply  text-sm bg-slate-200 rounded text-gray-800 no-underline m-2 p-2
     }
     .button-dark-primary{
         @apply text-darkblue bg-midblue border-solid border-whiteblue  border rounded py-2 px-12 m-4 shadow hover:bg-darkblue hover:text-whiteblue hover:shadow

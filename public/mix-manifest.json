@@ -1,10 +1,23 @@
 {
     "/js/app.js": "/js/app.js",
     "/css/main.css": "/css/main.css",
-    "/footer.html": "/footer.html",
-    "/index.html": "/index.html",
-    "/p2.html": "/p2.html",
-    "/p3.html": "/p3.html",
+    "/index.php": "/index.php",
+    "/p1.php": "/p1.php",
+    "/p2.php": "/p2.php",
+    "/p3.php": "/p3.php",
+    "/p4.php": "/p4.php",
+    "/p5.php": "/p5.php",
+    "/portada.php": "/portada.php",
+    "/router.php": "/router.php",
+    "/routes.php": "/routes.php",
+    "/template.php": "/template.php",
+    "/partials/footer.php": "/partials/footer.php",
+    "/partials/head.php": "/partials/head.php",
+    "/partials/navbar.php": "/partials/navbar.php",
     "/img/bluekey.png": "/img/bluekey.png",
-    "/img/fondo.svg": "/img/fondo.svg"
+    "/img/fondo.svg": "/img/fondo.svg",
+    "/img/LOGIN-1_0000_Capa-21-copia.png": "/img/LOGIN-1_0000_Capa-21-copia.png",
+    "/img/LOGIN-2_0001_Capa-19.png": "/img/LOGIN-2_0001_Capa-19.png",
+    "/img/LOGIN-3_0000_Capa-19-copia.png": "/img/LOGIN-3_0000_Capa-19-copia.png",
+    "/img/users.svg": "/img/users.svg"
 }

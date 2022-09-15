@@ -1,41 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <title>Pantalla 2</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <link href="./css/main.css" rel="stylesheet">
-    <script src="./js/app.js" async></script>
+<?php include_once 'partials/head.php' ?>
 
-</head>
-<body class="h-screen w-screen ">
 <main>
     <div class=" flex flex-col  items-center content-center justify-center h-screen">
-        <div>
-            <svg xmlns="http://www.w3.org/2000/svg" class="p-24 h-44 w-44 text-gray-800" fill="none" viewBox="0 0 24 24"
-                 stroke="currentColor" stroke-width="2">
-                <path stroke-linecap="round" stroke-linejoin="round"
-                      d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"/>
-            </svg>
+        <div class="h-1/2 w-full bg-no-repeat bg-contain bg-top"
+             style="background-image: url('/img/background_key.png'); ">
         </div>
 
-        <div class="grid grid-cols-1 gap-6">
+        <div class="h-1/2 grid grid-cols-1 gap-6">
             <form action="">
                 <label class="block mt-2">
-                    <span class="text-gray-700">User</span>
+                    <span class="text-gray-700">Usuario</span>
                     <input type="text"
                            class="mt-2 block w-full px-0.5 border-0 border-b-2 border-gray-200 focus:ring-0 focus:border-black"
                            placeholder="">
                 </label>
                 <label class="block mt-2">
-                    <span class="text-gray-700">Code</span>
+                    <span class="text-gray-700">Código</span>
                     <input type="text"
                            class="mt-2 block w-full px-0.5 border-0 border-b-2 border-gray-200 focus:ring-0 focus:border-black"
                            placeholder="">
                 </label>
                 <label class="block mt-2">
-                    <span class="text-gray-700">Mobile</span>
+                    <span class="text-gray-700">Móvil</span>
                     <input type="text"
                            class="mt-2 block w-full px-0.5 border-0 border-b-2 border-gray-200 focus:ring-0 focus:border-black"
                            placeholder="">
@@ -50,7 +36,4 @@
 
     </div>
 </main>
-<section id="footer" class="pt-4"></section>
-
-</body>
-</html>
+<?php include_once 'partials/footer.php' ?>

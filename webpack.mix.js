@@ -6,12 +6,21 @@ mix.js('src/app.js', 'public/js')
         require('tailwindcss'),
     ])
 mix.copy([
-    'src/html/**',
+    'src/html/*.php',
 ], 'public/')
+    .copyDirectory('src/html/partials','public/partials')
     .copy('src/img/**','public/img')
     .setPublicPath('public')
     .browserSync({
         watch: true,
-        proxy: 'http://workapp.test',
+        files:[
+            'public/css/main.css',
+            'public/js/app.js',
+            'public/*.php',
+            'img/**/*',
+        ],
+        proxy: 'http://workapp.test/',
+        host:'workapp.test',
+        open: 'external',
         // server: "./public"
-    });
+    }).disableSuccessNotifications();
