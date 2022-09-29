@@ -10,6 +10,7 @@
     "/portada.php": "/portada.php",
     "/router.php": "/router.php",
     "/routes.php": "/routes.php",
+    "/template_inside_app.php": "/template_inside_app.php",
     "/template.php": "/template.php",
     "/partials/footer.php": "/partials/footer.php",
     "/partials/head.php": "/partials/head.php",

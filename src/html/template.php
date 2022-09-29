@@ -3,7 +3,7 @@
 <main>
 
 </main>
-<?php include_once 'partials/footer.php' ?>
+
 <div id="footer-bar">
     <div class="bg-darkblue  flex justify-between border border-t border-0 border-gray-100 p-3 ">
         <div>
@@ -37,3 +37,4 @@
         </div>
     </div>
 </div>
+<?php include_once 'partials/footer.php' ?>

@@ -23,4 +23,7 @@
     .button-light-primary{
        @apply mt-2.5 text-whiteblue bg-midblue border-solid border-gray-800  border rounded py-2 px-12 m-4   hover:bg-gray-700 hover:text-slate-50 hover:shadow
     }
+    p {
+        @apply m-3
+    }
 }

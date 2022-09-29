@@ -1,4 +1,4 @@
-<footer class=" bg-darkblue h-auto  sticky bottom-0  " >
+<div class=" bg-darkblue h-auto  sticky bottom-0  " >
     <div class="items-center h-auto flex flex-shrink items-center justify-center place-content-center">
 
         <a class="footer-link" href="/">p0</a>
@@ -11,7 +11,7 @@
 
     </div>
 
-</footer>
+</div>
 
 </body>
 </html>
