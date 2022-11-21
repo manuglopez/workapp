@@ -7,6 +7,7 @@
     "/p3.php": "/p3.php",
     "/p4.php": "/p4.php",
     "/p5.php": "/p5.php",
+    "/p6.php": "/p6.php",
     "/portada.php": "/portada.php",
     "/router.php": "/router.php",
     "/routes.php": "/routes.php",
@@ -20,5 +21,7 @@
     "/img/LOGIN-1_0000_Capa-21-copia.png": "/img/LOGIN-1_0000_Capa-21-copia.png",
     "/img/LOGIN-2_0001_Capa-19.png": "/img/LOGIN-2_0001_Capa-19.png",
     "/img/LOGIN-3_0000_Capa-19-copia.png": "/img/LOGIN-3_0000_Capa-19-copia.png",
-    "/img/users.svg": "/img/users.svg"
+    "/img/users.svg": "/img/users.svg",
+    "/p7.php": "/p7.php",
+    "/p8.php": "/p8.php"
 }

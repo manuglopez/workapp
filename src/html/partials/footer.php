@@ -1,5 +1,5 @@
 <div class=" bg-darkblue h-auto  sticky bottom-0  " >
-    <div class="items-center h-auto flex flex-shrink items-center justify-center place-content-center">
+    <div class="items-center h-auto flex items-center  place-content-start overflow-scroll">
 
         <a class="footer-link" href="/">p0</a>
         <a class="footer-link" href="/p1">p1</a>
@@ -8,6 +8,8 @@
         <a class="footer-link" href="/p4">p4</a>
         <a class="footer-link" href="/p5">p5</a>
         <a class="footer-link" href="/p6">p6</a>
+        <a class="footer-link" href="/p7">p7</a>
+        <a class="footer-link" href="/p8">p8</a>
 
     </div>
 
