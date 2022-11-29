@@ -4,6 +4,7 @@
         <?php require_once 'partials/navbar.php' ?>
     </header>
 
+
     <main class="bg-whiteblue flex-1 overflow-y-scroll">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam non nulla luctus, viverra mi imperdiet, faucibus
             neque. Nullam molestie molestie dui, vitae venenatis nibh vehicula sit amet. Morbi at velit maximus nunc

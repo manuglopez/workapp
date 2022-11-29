@@ -15,6 +15,8 @@ get('/p5', 'p5.php');
 get('/p6','p6.php');
 get('/p7','p7.php');
 get('/p8','p8.php');
+get('/p9','p9.php');
+get('/p10','p10.php');
 
 // For GET or POST
 // The 404.php which is inside the views folder will be called

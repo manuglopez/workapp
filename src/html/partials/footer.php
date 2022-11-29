@@ -10,6 +10,8 @@
         <a class="footer-link" href="/p6">p6</a>
         <a class="footer-link" href="/p7">p7</a>
         <a class="footer-link" href="/p8">p8</a>
+        <a class="footer-link" href="/p9">p9</a>
+        <a class="footer-link" href="/p10">p10</a>
 
     </div>
 
