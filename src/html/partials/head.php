@@ -9,4 +9,4 @@
     <script src="../js/app.js" async></script>
 
 </head>
-<body class="antialiased font-sans overflow-hidden w-screen h-screen">
+<body class="antialiased font-sans  w-screen h-screen">
