@@ -55,6 +55,8 @@
             <a class="footer-link" href="/p8">p8</a>
             <a class="footer-link" href="/p9">p9</a>
             <a class="footer-link" href="/p10">p10</a>
+            <a class="footer-link" href="/p11">p11</a>
+            <a class="footer-link" href="/p12">p12</a>
 
         </div>
     </div>
